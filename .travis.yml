@@ -1,8 +1,16 @@
-languaje: node_js
-node_js:
-  - stable
-deploy:
-  provider: heroku
-  app: shareyouridea
-  api_key:
-    secure: QqV/erJsvwBa5KxkDThGdpBu/7RVLHS9pdDtfFvHFi0p0T8HwlnsBbhl4lF8ioghQpRIuyKzQ3uYoIuAqcKq+CWQhpR01FsRwqwHo3HGZg3+So2cMFlIstoexqMeXlP20HwyYMRcPtStHiyKvGNHoXDYkG8B3OKP5xXbJ++ih12+GeNGYcdKBpReYKrM3TUl/NmIZRnrzW8wzPXjDfkR7ZJzKZd67G4p2WHGzzCq/asV6YK7R6s5Bb4XVtljebs3n8fdFnAu8eL3LQcp4iNA0q7DM5nU3g/as6udNpVUnBN3AOEmQz10PJubh3dfyFVjoOX7SiR/d4K2A3Y9kAqdP+fSS06gpET77guKVEvpihAtvP5yNNYYiGFkvOsVk75jmnpafQrzATdl7Cm65x+P1GFdjCcZBXkHW/I8qnD6sRzk3liE24f4tczbl8Ou5GhHZaWE4vQzXBR1fVJJobTo+p/1kI9ugx2bOR2RNjpmqE932tDsYDZ/DGZQcGQ/li1fCuZmGoTz52mGtqI+xGqWnP0/GTjRKvdn9afihmud8UVdOAA7SD/DyW7Rc4UMWUMyVTLAeSY3J+niFa96Y+RrYyaLxo8z+88qcHas2m9B+8XlGym9wNBbbesEO8HHwgj7XifSfH6LltIl9tQ+FdeDejivgFKcgjWJH0wsYaCFc3c=
+{
+  "language": "node_js",
+  "os": ["linux"],
+  "node_js": ["stable"],
+  "deploy":
+    [
+      {
+        "provider": "heroku",
+        "app": "shareyouridea",
+        "api_key":
+          {
+            "secure": "QqV/erJsvwBa5KxkDThGdpBu/7RVLHS9pdDtfFvHFi0p0T8HwlnsBbhl4lF8ioghQpRIuyKzQ3uYoIuAqcKq+CWQhpR01FsRwqwHo3HGZg3+So2cMFlIstoexqMeXlP20HwyYMRcPtStHiyKvGNHoXDYkG8B3OKP5xXbJ++ih12+GeNGYcdKBpReYKrM3TUl/NmIZRnrzW8wzPXjDfkR7ZJzKZd67G4p2WHGzzCq/asV6YK7R6s5Bb4XVtljebs3n8fdFnAu8eL3LQcp4iNA0q7DM5nU3g/as6udNpVUnBN3AOEmQz10PJubh3dfyFVjoOX7SiR/d4K2A3Y9kAqdP+fSS06gpET77guKVEvpihAtvP5yNNYYiGFkvOsVk75jmnpafQrzATdl7Cm65x+P1GFdjCcZBXkHW/I8qnD6sRzk3liE24f4tczbl8Ou5GhHZaWE4vQzXBR1fVJJobTo+p/1kI9ugx2bOR2RNjpmqE932tDsYDZ/DGZQcGQ/li1fCuZmGoTz52mGtqI+xGqWnP0/GTjRKvdn9afihmud8UVdOAA7SD/DyW7Rc4UMWUMyVTLAeSY3J+niFa96Y+RrYyaLxo8z+88qcHas2m9B+8XlGym9wNBbbesEO8HHwgj7XifSfH6LltIl9tQ+FdeDejivgFKcgjWJH0wsYaCFc3c=",
+          },
+      },
+    ],
+}
